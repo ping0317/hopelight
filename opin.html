@@ -1,0 +1,672 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="台南元品心理諮商所由專業的心理諮商師提供多元的治療方法，來協助個體表達受困之感受。除了提供談話治療，也為不擅言語表達之兒童提供遊戲治療；此外還提供沙遊治療，藉由沙箱裡擺設的象徵物來溝通，更能輕鬆表達內在的複雜世界。">
+<meta name="keywords" content="元品心理諮商所,元品,心理諮商,諮商,專業,治療,溝通,療癒,探索,心靈,成長,多元,沙遊,求助,憂鬱,黃雅羚">
+<title>++元品心理諮商所++ -專業團隊</title>
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<style>
+.more_close_btn{
+	cursor:pointer;
+}
+</style>
+<script type="text/javascript" src="include/func.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--
+
+	//修正 IE 上, 無法使用 document.getElementsByTagName 來取得 TagName
+	if(typeof(window.external) != 'undefined'){    
+		document.getElementsByName = function(name, tag){
+			if(!tag){
+				tag = '*';
+			}
+			var elems = document.getElementsByTagName(tag);    
+			var res = []
+			for(var i=0;i<elems.length;i++){
+				att = elems[i].getAttribute('name');
+				if(att == name) {
+					res.push(elems[i]);
+				}
+			}
+			return res;
+		}
+
+	}
+	
+	$(document).ready(function(){
+		//滑出內容	
+		$(".more_close_btn").click(function(){
+			if($(this).attr('src').indexOf("more")>=0){
+				$(this).attr('src','images/group_close_a.jpg');
+				$(this).parent().find(".con").slideDown("fast")
+			}else{
+				$(this).attr('src','images/group_more_a.jpg');
+				$(this).parent().find(".con").slideUp("fast")
+			}
+		});
+	
+	
+	});
+
+	/*
+	function ShowDetail(n){
+		var icon=document.getElementById("Icon"+n);
+		var r=document.getElementsByName("dc");
+		var b=r[(n-1)];
+		if(icon.src.indexOf("more")>=0){
+			icon.src="images/group_close_a.jpg";
+			$(b).slideDown("fast");
+		}else{
+			icon.src="images/group_more_a.jpg";
+			$(b).slideUp("fast");
+		}
+	}
+	*/
+	
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('images/group_more_b.jpg')">
+
+<div id="HEADER">
+	<div id="MENU">
+		<div class="LOGO" onclick="window.location.href='/index.asp';"></div>
+
+
+<div class="BOX">
+<ul id="main-menu">
+ <li><a href="/about_yuanpin.asp" title="關於我們" onmouseover="ShowSubMenu();"><img src="/images/menu_about_us.png" width="91" height="35" alt="關於我們" id="about_image" /></a></li>
+ <li><a href="/service.asp" title="諮商服務"><img src="/images/menu_service.png" width="91" height="35" alt="諮商服務" /></a></li>
+ <li><a href="/location.asp" title="我們在哪裡"><img src="/images/menu_location.png" width="91" height="35" alt="我們在哪裡" /></a></li>
+ <li><a href="/reservation.asp" title="預約方式"><img src="/images/menu_reservation.png" width="91" height="35" alt="預約方式" /></a></li>
+ <li><a href="/qa.asp" title="諮商Q&amp;A"><img src="/images/menu_qa.png" width="91" height="35" alt="諮商Q&amp;A" /></a></li>
+ <li><a href="/article.asp" title="好文精選"><img src="/images/menu_article.png" width="91" height="35" alt="好文精選" /></a></li>
+ <li><a href="/news.asp" title="最新消息"><img src="/images/menu_hot_news.png" width="91" height="35" alt="最新消息" /></a></li>
+</ul>
+</div>
+<div class="BTN3"><ul id="third_menu"><li><a href="javascript:ShowNotice();void(0);">諮商須知</a></li>    <li><a href="/reservation.asp">立即預約</a></li>    <li><a href="/index.asp">回首頁</a></li></ul></div>
+<div id="about_submenu">
+	<ul id="sub-menu2">
+		<li><a href="/about_yuanpin.asp" title="成立宗旨">成立宗旨</a></li>
+		<li><a href="/group.asp" title="專業陣容">專業陣容</a></li>
+		<li><a href="/place.asp" title="環境介紹">環境介紹</a></li>
+	</ul>
+</div>
+
+<div id="outDiv" onmouseover="HideSubMenu();"></div>
+<div id="NOTICE"><div class="CLOSE" onclick="HideNotice();"></div><div class="BOX3"><p>1.為確保諮商品質及維護當事人隱私，所有諮商與來訪請事前電話預約。</p>
+<p>2.我們的諮商服務採『預約預付』制，請提前預約，並讓我們安排適合您會談主題的諮商師。</p>
+<p>3.您的來訪及諮商內容我們將絕對保密，請放心。</p>
+</div></div>
+	</div>
+</div>
+<div id="WRAPPER">
+  <div id="BANNER"><img src="images/topb_about.jpg" width="948" height="130" /></div>
+  <div id="TITLE_GROUP"></div>
+  <div id="SUB_MENU">
+    <ul id="main-nav">
+      <li><a href="about_yuanpin.asp" title="e.g. 'Information about the company ...">成立宗旨</a></li>
+      <li class="over">專業陣容</li>
+      <li><a href="place.asp" title="e.g. 'Information about the company ...">環境介紹</a></li>
+    </ul>
+  </div>
+  
+  
+  <div id="GROUP-CONTENT">
+    <div class="BOX"> <img src="images/group_m1.jpg" width="111" height="116" class="member" />
+      <h1>黃雅羚</h1>
+      <h2>諮心字第000064</h2>
+      <h3>諮商心理師兼所長</h3>
+      <p><b>專長</b><br />
+        <b>(一)兒童及青少年</b><br />
+        兒童心理發展評估、兒童適應問題諮商、兒童健康行為促進、兒童創傷治療(身體虐待、疏忽、精神虐待、性侵害、目睹家暴)、遊戲治療、團體治療<br />
+        <b>(二)成人</b><br />
+        個人成長諮商、沙遊治療、親職教育、壓力管理、兩性成長<br />
+        <b>(三)專業人員</b><br />
+        專業人員督導、輔導技巧專業工作坊</p>
+		
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立高雄師範大學輔導研究所碩士</li>
+			<li>國立高雄師範大學輔導與諮商研究所博士</li></ul>
+			<ul class="listlist">經歷
+			<li>台南市政府警察局外聘心理諮詢顧問2011/03~至今</li>
+			<li>高雄市兒童青少年與家庭諮商中心諮商心理師兼專業督導2003/7~至今</li>
+			<li>高雄市家扶中心諮商心理師2003/10~至今</li>
+			<li>高雄縣家扶中心諮商心理師2003/10~至今</li>
+			<li>台南縣家扶中心諮商心理師2005/10~至今</li>
+			<li>台南市勵馨基金會特約心理師2007/01~至今</li>
+			<li>台南女子技術學院通識中心兼任助理教授2003/10~至今</li>
+			<li>高雄市、高雄縣、台南市學生諮商中心分區輔導老師督導</li></ul>
+			<ul class="listlist">著作
+			<li>黃雅羚、林妙容(民93)：安置機構內青少年自殘行為成因與介入策略。學生輔導月刊。</li>
+			<li>黃雅羚(民92)：身體上的痛比不上心痛~青少年自傷行為的成因探討。諮商與輔導。</li>
+			<li>黃雅羚(民92)：青少年自傷經驗之分析研究。高雄師範大學輔導研究所碩士論文。</li>
+			<li>黃雅羚(民94)。青少年自傷經驗發展歷程之分析研究。12期，諮商輔導學報。</li>
+			<li>許雅惠、黃雅羚(民94)。身心障礙大專學生生涯阻礙之分析研究。22期，屏東師範學報。</li>
+			<li>黃雅羚、戴嘉南(民97) 。專業諮商人員受委任性侵害案件專家證人經驗之初探研究。發表於2008年全國輔導與諮商碩博士研究生學術研討會。</li>
+			<li>黃雅羚、丁原郁(民97) 。駐地實習諮商師生涯任務與因應行動之研究。發表於  2008年全國輔導與諮商碩博士研究生學術研討會。</li>
+			<li>黃雅羚(民99)。性侵害兒童心理創傷量表發展。高雄師範大學輔導研究所博士論文</li>
+			</ul>
+			<ul class="listlist">最喜歡的一句話
+			<li>~~~你所需的一切都存於你心~~~<br>
+			摘自綠野仙蹤『仙女一定在桃樂絲身上做了記號，因為她到奇怪的地方去遊蕩，卻總是有一股無形的力量在保護他』</li></ul>
+		</div>		
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon1" width="42" height="14" vspace="4" border="0" align="right" id="Icon1" /> <img src="images/group_p1.jpg" width="881" height="3" /></div>
+   
+
+
+    
+	
+	<div class="BOX"> <img src="images/group_m2.jpg" width="111" height="116" class="member" />
+      <h1>許雅惠</h1>
+      <h2>諮心第001188號</h2>
+      <h3>顧問</h3>
+      <p><b>專長：</b><br />
+        中年危機諮商、諮商督導、生涯諮商</p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>高師大輔導諮商所博士</li>
+			</ul>
+			<ul class="listlist">經歷
+			<li>文藻外語學院通識教育中心副教授</li>
+			<li>文藻外語學院諮商輔導中心主任</li>
+			<li>高師大輔導與諮商研究所兼任助理教授</li>
+			<li>高師大、屏東教育大學、嘉義大學、台中教育大學、呂旭立文教基金會高雄分會課程實習與全年駐地實習專業督導</li>
+			</ul>
+			<ul class="listlist">著作
+			一、期刊論文
+			<li>許雅惠。大專校院輔導大專校院輔導教師工作現況與專業知能需求之研究。教育心理學報。(TSSCI)。已接受刊登(附接受刊登證明)。 </li>
+			<li>許雅惠(2009)。台灣諮商人員諮商關係建構經驗之分析研究。中華輔導與諮商學報，26,85-119頁。(TSSCI)。(ISSN 1728-518-6)</li>
+			<li>許雅惠(2009)。大專校院身心障礙學生依附內在運作模式與人際衝突因應方式之分析研究。特殊教育研究學刊，34(2),27-46頁。(TSSCI)。</li>
+			<li>許雅惠、廖鳳池(2009)。督導回饋對受督導者之衝擊與諮商行為影響之研究。新竹教育大學教育學報，26,63-92頁。</li>
+			<li>許雅惠(2008)。團體督導運作歷程之探討，輔導季刊，44(1),13-20頁。</li>
+			<li>許雅惠、黃天佑、鄭琳蓉、林家正(2008)。網路交友行為與社交焦慮之研究。資訊科學應用期刊, 3(2)，53-78頁。</li>
+			<li>許雅惠、廖鳳池(2007)。諮商督導歷程中督導者回饋介入事件、回饋介入時機與意圖之分析研究。諮商輔導學報,16，23-67頁。</li>
+			二、專案計畫執行
+			<li>許雅惠(2009)。大專校院資源教室輔導工作模式之建構-生態系統觀點。98年度國科會專題研究(98-2410-H-160-002)。(計畫主持人)</li>
+			<li>許雅惠(2008)。學校輔導教師教育訓練模式之研究。97年國科會專題研究(97-2410-H-160-013)。(計畫主持人)</li>
+			<li>許雅惠(2007)。大學生網路交友行為與自我概念、社交焦慮之關係研究。97年文藻外語學院獎助教師研究。(計畫主持人)</li>
+			三、研討會論文
+			<li>許雅惠(2010)。大專校院身心障礙學生輔導工作者工作現況之研究。2010年第二屆兩岸四地大專院校心理輔導與諮商高峰論壇暨華人輔導與諮商學術研討會口頭發表論文。</li>
+			<li>許雅惠(2009)。大專校院輔導教師工作現況之調查研究。中國輔導學會2009年年會壁報發表論文。</li>
+			<li>許雅惠(2008)。諮商關係改變歷程之分析研究。中國輔導學會2008年年會口頭發表論文。</li>
+			<li>許雅惠(2008)。身心障礙大專學生依附內在運作模式與人際衝突因應方式之分析研究。中國輔導學會2008年年會壁報發表論文。</li>
+			<li>許雅惠(2008)。諮商歷程中諮商關係建構之分析研究 –本土化經驗之探究。諮商實務教學與專業發展學術研討會壁報發表論文。</li>
+			<li>許雅惠、黃雅羚(2008)。團體督導中重要事件受督導者知覺之分析研究-以區辨模式為架構。諮商實務教學與專業發展學術研討會壁報發表論文。</li>
+			<li>許雅惠、黃天佑、鄭琳蓉、林家正(2007)。大學生網路交友行為與自我概念、社交焦慮之關係研究。第46屆台灣心理學年會口頭發表論文。</li>
+			<li>許雅惠(2006)。教育大學理學院學生生涯發展狀況之分析研究。2006 數位教學暨資訊實務研討會口頭發表論文。</li>
+			</ul>
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon2" width="42" height="14" vspace="4" border="0" align="right" id="Icon2" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+
+	<div class="BOX"> <img src="images/group_m7.jpg" width="111" height="116" class="member" />
+      <h1>李如玉</h1>
+      <h2>諮心字第001179號</h2>
+      <h3>諮商心理師</h3>
+      <p><b>專長：</b><br />
+        生涯諮商、人際關係困擾、親密關係、自我探索與個人成長、兒童諮商</p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>高師大輔導與諮商所碩士</li>
+			<li>國立台北教育大學幼兒教育學系學士(學齡前特殊幼兒教育學程、輔系：教育心理與輔導學系)</li>
+			</ul>
+			<ul class="listlist">經歷
+			<li>元品心理諮商所專任諮商心理師2011/04~迄今</li>
+			<li>文藻外語學院諮商與輔導中心專任諮商心理師2009/11~2011/03</li>
+			</ul>
+			<ul class="listlist">著作
+			<li>李如玉(2009)。諮商師完美主義與專業耗竭之相關研究，高雄師範大學輔導研究所碩士論文。</li>
+			<li>李如玉、丁原郁(2009)。諮商工作者完美主義傾向與專業耗竭，諮商與輔導，285，33-36。</li>
+			</ul>
+			<ul class="listlist">最喜歡的一句話
+			<li>堅持是一種美麗，放棄是一種藝術，權衡之間~全看自己！</li>
+			</ul>
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon3" width="42" height="14" vspace="4" border="0" align="right" id="Icon3" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+
+
+
+
+
+
+
+
+	<div class="BOX"> <img src="images/group_m3.jpg" width="111" height="116" class="member" />
+      <h1>張懿心</h1>
+      <h2>諮心字第001086號 </h2>
+      <h3>諮商心理師</h3>
+      <p><b>專長：</b><br />親子遊戲治療、沙遊治療、兒童諮商、遊戲治療(幼兒/兒童)、兒童發展評估、特殊兒童諮商、藝術治療、英語諮商、親職教育專題演講、保母訓練課程。
+      </p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>美國奧克拉荷馬中央大學輔導與諮商碩士</li>
+			<li>高師大輔導諮商所博士候選人</li>
+			</ul>
+			<ul class="listlist">經歷
+			<li>台南應用科技大學幼兒保育系兼任講師</li>
+			<li>高雄正修科技大學幼兒保育系兼任講師</li>
+			<li>高雄市兒童青少年與家庭諮商中心兼任諮商心理師</li>
+			</ul>
+            <ul class="listlist">著作
+			<li>張懿心、卓紋君(2009)。母親參與親子遊戲治療對於親子互動改變過程之初探。嬰幼兒健康與安全學術研討會，嘉南藥理科技大學嬰幼兒保育系，台南市。</li>
+            </ul>
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon4" width="42" height="14" vspace="4" border="0" align="right" id="Icon4" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+
+
+
+
+
+
+	<div class="BOX"> <img src="images/group_m8.jpg" width="111" height="116" class="member" />
+	<h1>徐憶梅</h1>
+	<h2>諮心字第001513號</h2>
+      <h3>諮商心理師</h3>
+      <p><b>專長：</b><br />
+        自我探索與個人成長、伴侶/婚姻諮商、親子諮商、中年諮商、青少年諮商、情緒探索與照顧、壓力抒解、生涯諮商
+      </p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+
+			<li>國立交通大學教育研究所教育心理與諮商組碩士</li>
+			<li>國立台灣師範大學教育心理系學士</li>
+
+			</ul>
+			<ul class="listlist">經歷
+			<li>元品心理諮商所諮商心理師</li>
+            <li>國立交通大學台南分部諮商中心 兼任諮商心理師</li>
+            <li>高雄四維文教院關係花園課程講師</li>
+            <li>高雄四維文教院神經語言心法基礎課程助理講師</li>
+			<li>高雄市芯耕圓心理諮商所兼任諮商心理師</li>
+			<li>高雄市兒童青少年與家庭諮商中心兼任諮商心理師</li>
+			<li>台南市德光女中教師11年(輔導主任、輔導組長、資料組長)</li>
+			<li>台南市聖功女中教師3年(專任輔導教師、導師)</li>
+			<li>雲林縣私立正心高級中學教師9年(輔導主任、導師)</li>
+			<li>桃園縣立八德國中教師4年(輔導主任、導師)</li>
+			<li>救國團青少年輔導中心義務張老師</li>
+
+            </ul>
+             <ul class="listlist">著作
+			<li>徐憶梅（2010，11月）。日漸親近—中年夫妻情感親密經驗探究。國立交通大學碩士論文。發表於2010年台灣諮商心理學年會。台北：台灣師範大學。</li>
+            <li>徐憶梅（2010）。敘事治療在伴侶諮商中的運用。輔導季刊，48（3），48-57。</li>
+            <li>徐憶梅（2008，10 月）。親密關係心理經驗量表的發展與生活滿意度之相關研究。發表於第47屆台灣心理學年會。台北：台灣師範大學。</li>
+            <li>徐憶梅（2011，1月）。為自己創造平衡的人生。高雄心理衛生中心衛教文稿            </li>
+            <li>徐憶梅（2011，5月）。當更年期遇到狂飆期。義大醫訊，46，21-22。</li>
+            </ul>
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon5" width="42" height="14" vspace="4" border="0" align="right" id="Icon5" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+
+
+
+	<div class="BOX"> <img src="images/group_m9.jpg" width="111" height="116" class="member" />
+      <h1>陳孟芳</h1>
+	<h2>諮心字第001531號</h2>
+      <h3>諮商心理師</h3>
+      <p><b>專長：</b><br />兒童遊戲治療、生涯發展、自我探索、情緒管理、親密關係、人際關係
+      </p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立高雄師範大學輔導與諮商研究所碩士</li>
+			</ul>
+			<ul class="listlist">經歷
+			<li>元品心理諮商所諮商心理師</li>
+			<li>台南市學生心理諮商中心兼任諮商心理師</li>
+			<li>中華民國聲暉聯合會社工員</li>
+			<li>財團法人幸福福利文教基金會社工員</li>
+			<li>社團法人社工實務發展協會社工員</li>
+
+			</ul>
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon7" width="42" height="14" vspace="4" border="0" align="right" id="Icon7" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+
+
+
+	<div class="BOX"> <img src="images/group_m10.jpg" width="111" height="116" class="member" />
+      <h1>盧宜蔓</h1>
+	<h2>諮心字第001178號</h2>
+      <h3>諮商心理師</h3>
+      <p><b>專長：</b><br />青少年諮商、兒童遊戲治療、情緒管理、人際關係、悲傷與失落
+      </p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立高雄師範大學輔導與諮商研究所碩士</li>
+			</ul>
+			<ul class="listlist">經歷
+			<li>元品心理諮商所諮商心理師(現職)</li>
+			<li>台南康寧大學學輔中心 任諮商心理師(現職)</li>
+			<li>台南市學生心理諮商中心兼任諮商心理師(現職)</li>
+			<li>高雄市學生心理諮商中心兼任諮商心理師(現職)</li>
+			<li>台南立德大學兼職輔導老師 (96年9月~97年1月)</li>
+			<li>國軍高雄總醫院兼任心理師（94年9月~96年6月）</li>
+			<li>國軍高雄總醫院心理師 （93年6月~94年8月）</li>
+			<li>內政部雲林教養院 輔導員（91年8月~93年月1月）(針對未滿18歲之少女進行輔導相關工作)</li>
+			</ul>
+			<ul class="listlist">著作
+			<li>盧宜蔓（2009）。大學生的溝通姿態、自尊與人際關係之研究。國立高雄師範大學輔導與諮商研究所碩士論文。</li>
+			<li>盧宜蔓（2010）。人際關係與人際界線。輔導與諮商，298，2-4。</li>
+			<li>盧宜蔓（2010）。選擇性緘默兒童的諮商輔導。輔導與諮商，289，61-63。</li>
+			</ul>
+
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon8" width="42" height="14" vspace="4" border="0" align="right" id="Icon8" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+
+
+
+
+
+	<div class="BOX"> <img src="images/group_m11.jpg" width="111" height="116" class="member" />
+      <h1>鄭楦縈</h1>
+	<h2>諮心字第000838號</h2>
+      <h3>諮商心理師</h3>
+      <p><b>專長：</b><br />兩性關係與情感議題、性侵害受害者治療、性別與性議題、表達性藝術治療、兒童遊戲治療
+      </p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立高雄師範大學輔導與諮商研究所碩士</li>
+			</ul>
+<ul class="listlist">現職 
+<li>元品心理諮商所諮商心理師</li>
+<li>綠野仙蹤心理諮商所兼任心理師</li>
+<li>國立屏東教育大學學生輔導中心兼任心理師</li>
+<li>高雄市學生心理諮商中心兼任諮商心理師</li>
+<li>高雄市兒童青少年與家庭諮商中心兼任心理師</li>
+<li>屏東縣家庭諮商中心兼任心理師</li>
+<li>高雄市勵馨基金會蒲公英中心兼任心理師</li>
+			</ul>
+			<ul class="listlist">經歷
+			<li>國立高雄師範大學專任心理師兼督導</li>
+<li>高雄市兒童青少年與家庭諮商中心實習心理師督導</li>
+<li>高雄縣家扶中心兼任心理師</li>
+<li>高雄市兒童福利聯盟特約諮商心理師</li>
+<li>高雄市世界展望會兼任諮商心理師</li>
+<li>高雄市安琪兒家園特約諮商心理師</li>
+<li>高雄縣社會局鳳山福利中心特約諮商心理師</li>
+<li>高雄市家庭暴力暨性侵害防治中心特約心理師</li>
+
+			</ul>
+			<ul class="listlist">著作
+			<li>鄭楦縈（2010）。我很大尾，但是我很溫柔。高雄市學生心理諮商中心著，我不壞，我只想要愛：高雄市諮商案例故事集（p.204-210）。台北：心靈工坊。</li>
+			<li>鄭楦縈、丁原郁（2008）。現實治療之身體意象滿意度團體諮商方案。諮商與輔導月刊，270，26-31。</li>
+
+			</ul>
+
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon9" width="42" height="14" vspace="4" border="0" align="right" id="Icon9" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+
+
+
+	<div class="BOX"> <img src="images/group_m12.jpg" width="111" height="116" class="member" />
+      <h1>邱育姿</h1>
+	<h2>諮心字第001231號</h2>
+      <h3>諮商心理師</h3>
+      <p><b>專長：</b><br />親職教育、親子關係與溝通、青少年諮商、兒童遊戲治療、壓力調適、情緒管理
+      </p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立高雄師範大學輔導與諮商研究所碩士</li>
+			</ul>
+
+			<ul class="listlist">經歷
+			<li>元品心理諮商所諮商心理師(2011/03~至今)</li>
+			<li>芯耕圓心理諮商所兼任諮商心理師(2010/01~至今)</li>
+			<li>高雄市兒童青少年與家庭諮商中心兼任諮商心理師(2010/01~至今)</li>
+			<li>高雄市家暴暨性侵害防治中心兼任諮商心理師(2010/01~至今)</li>
+			<li>高雄家扶中心兼任諮商心理師(2010/9~至今)</li>
+			<li>高雄縣學生諮商中心兼任諮商心理師	(2009/10~至今)</li>
+			<li>高雄市兒童青少年與家庭諮商中心專任諮商心理師(2008/01~2009/12)</li>
+			<li>華遠文教基金會兼任諮商心理師(2006/01~至今)</li>
+
+
+			</ul>
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon10" width="42" height="14" vspace="4" border="0" align="right" id="Icon10" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+
+
+	<div class="BOX"><img src="images/group_m13.jpg" width="111" height="116" class="member" />
+	  <h1>石麗如</h1>
+	<!--<h2>諮心字第001231號</h2>-->
+      <h3>社工師</h3>
+      <p><b>專長：</b><br />兒童適應問題之社會心理評估、兒童遊戲治療、受虐兒童創傷復原、兒童、青少年團體帶領、兒童保護諮詢
+      </p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>靜宜大學兒童及青少年福利系學士</li>
+            <li>國立彰化師範大學輔導與諮商研究所碩士修業中</li>
+			</ul>
+
+			<ul class="listlist">經歷
+			<li>元品心理諮商所社工師</li>
+            <li>台南市友善校園社工師</li>
+            <li>台南市教育處學生諮商中心實習諮商心理師</li>
+            <li>台灣兒童暨家庭扶助基金會社工員、保護組組長暨資深社工</li>
+</ul>
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon10" width="42" height="14" vspace="4" border="0" align="right" id="Icon11" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+
+
+
+	<div class="BOX"><img src="images/group_m15.jpg" width="111" height="116" class="member" />
+	  <h1>邱小淨</h1>
+	<h2>諮心字第000590號</h2>
+      <h3>諮商心理師</h3>
+      <p><b>專長：</b><br />自我探索、情緒/壓力調適、失落創傷議題、兒童遊戲治療、多元性別、認同議題(同性戀/雙性戀/跨性別)
+      </p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立高雄師範大學輔導與諮商所碩士</li>
+           	</ul>
+
+			<ul class="listlist">經歷
+			<li>元品心理諮商所諮商心理師</li>
+<li>高雄市政府衛生局心理諮商服務 兼任諮商心理師(100~)</li>
+<li>高雄市兒童青少年與家庭諮商中心 兼任諮商心理師(99~)</li>
+<li>國立海洋科技大學  外聘諮商心理師(99~)</li>
+<li>高雄縣衛生局落實整合性部落心理衛生工作於88災民安置營區計劃(98~99)</li>
+<li>台灣性教育學會與杏陵醫學基金會培訓南區性諮商心理師(98~)</li>
+<li>＜參與98~99年國健局青少年性健康促進諮詢(商)服務站推展計畫＞</li>
+<li>私立樹德商職 外聘諮商心理師(98~)</li>
+<li>華遠兒童服務中心 外聘諮商心理師(98~)</li>
+<li>高雄縣向陽家園 外聘諮商心理師(98~)</li>
+<li>高雄市學生心理諮商中心 兼任諮商心理師(97~)</li>
+<li>私立高苑科技大學 兼任諮商心理師(98)</li>
+<li>屏東縣學生心理諮商中心 兼任諮商心理師(98)</li>
+<li>和春技術學院 兼任諮商心理師(98)</li>
+        </ul>
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon10" width="42" height="14" vspace="4" border="0" align="right" id="Icon13" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+
+
+	<div class="BOX"><img src="images/group_m16.jpg" width="111" height="116" class="member" />
+	  <h1>王韋琇</h1>
+	<h2>諮心字第001658號</h2>
+      <h3>諮商心理師</h3>
+      <h2>護理字第100500號</h2>
+      <h3>護理師</h3>
+      <p><b>專長：</b><br />遊戲治療、親職教育、表達性藝術治療、壓力管理、企業諮商、現實治療取向
+      </p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立彰化師範大學輔導與諮商研究所博士(進修中)</li>
+            <li>國立高雄師範大學輔導與諮商研究所碩士</li>
+           	</ul>
+
+			<ul class="listlist">經歷
+			<li>元品心理諮商所諮商心理師</li>
+            <li>台灣積體電路製造股份有限公司健康管理師(2011~2012)</li>
+            <li>高雄市學生心理諮商中心諮商心理師(2010~)</li>
+            <li>台南市學生諮商暨個案管理中心諮商心理師(2009~2011)</li>
+            <li>行政院衛生署嘉南療養院精神科護理人員(2003~2006)</li>
+	       </ul>
+           
+       	   <ul class="listlist">著作
+			<li>王韋琇、丁原郁（2012）。現實治療團體諮商對急重症護理人員之壓力反應與因應策略之影響。中華輔導與諮商學報，32，56-83。</li>
+            <li>王韋琇（2010）。現實治療團體諮商對急重症單位女性護理人員之壓力反應與因應策略之影響（未發表碩士論文）。國立高雄師範大學，高雄市。</li>
+            <li>王韋琇（2011）。淺談高中生之生涯輔導。學生輔導電子報。</li>
+			</ul>   
+             
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon10" width="42" height="14" vspace="4" border="0" align="right" id="Icon13" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+        
+        
+	<div class="BOX"><img src="images/group_m17.jpg" width="111" height="116" class="member" />
+	  <h1>蔡聖茹</h1>
+	<h2>諮心字第000830號</h2>
+      <h3>諮商心理師</h3>
+      <p><b>專長：</b><br />情感議題、自我探索、情緒/壓力調適、創傷療癒、青少年及兒童諮商 
+      </p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立臺南大學諮商與輔導研究所碩士</li>
+           	</ul>
+
+			<ul class="listlist">經歷
+			<li>元品心理諮商所諮商心理師</li>
+			<li>嘉南藥理科技大學學生輔導中心諮商心理師</li>
+			<li>勵馨基金會特約諮商心理師</li>
+			<li>台南應用科技大學學生輔導中心諮商心理師</li>
+			<li>台南應用科技大學生活科學系兼任講師</li>
+	     </ul>
+           
+       	
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon10" width="42" height="14" vspace="4" border="0" align="right" id="Icon13" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+        
+        
+	<div class="BOX"><img src="images/group_m18.jpg" width="111" height="116" class="member" />
+	  <h1>金音如</h1>
+	<h2>諮心字第001720號</h2>
+      <h3>諮商心理師</h3>
+      <h2>內授中社字第0920075334號</h2>
+      <h3>社會工作師</h3>
+      <p><b>專長：</b><br />(一)	個別諮商：性別議題、關係（兩性、人際、家庭、婚姻）議題、失落議題、 情緒困擾（憂鬱/焦慮傾向）、生涯/自我探索（自我價值）、創傷治療（家暴、性侵）<br />
+(二)	團體諮商：自我探索與覺察團體、筆跡分析覺察團體、人際關係覺察團體、溝通效能訓練團體
+ 
+      </p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立高雄師範大學輔導與諮商研究所碩士</li>
+            <li>東海大學社會工作學系學士</li>
+           	</ul>
+
+			<ul class="listlist">經歷
+			<li>元品心理諮商所諮商心理師</li>
+			<li>台南應用科技大學兼任輔導老師(2012/02~迄今)</li>
+			<li>台南地方法院家事調解委員(2011/04~迄今)</li>
+			<li>南區外勞庇護中心兼任諮商心理師(2010/10~迄今)</li>
+			<li>高雄燕巢戒治所兼任講師(2009/10~2010/05)</li>
+			<li>立德大學專任輔導老師(2002/10~2008/02)</li>
+			<li>社工員(2000/01~2002/06)</li>
+	     </ul>
+           
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon10" width="42" height="14" vspace="4" border="0" align="right" id="Icon13" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+	
+    
+    
+ 	<div class="BOX"><img src="images/group_m19.jpg" width="111" height="116" class="member" />
+	  <h1>張華甄</h1>
+	<h2>諮心字第001989號</h2>
+      <h3>諮商心理師</h3>
+
+      <p><b>專長：</b><br />兒童遊戲治療、青少年諮商、自我探索、人際關係、情緒管理、生涯諮商
+ 
+      </p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立嘉義大學輔導與諮商研究所碩士</li>
+           	</ul>
+
+			<ul class="listlist">經歷
+			<li>元品心理諮商所專任諮商心理師(2012/04~迄今)</li>
+			<li>台南市政府教育局學生諮商暨個案管理中心實習心理師(2010/07~2011/06)</li>
+	     </ul>
+
+       	   <ul class="listlist">著作
+			<li>張華甄(2012)。高中職學生自我分化、家人關係與生涯定向之相關研究─以原台南市為例。國立嘉義大學輔導與諮商研究所碩士論文。</li>
+			<li>張華甄(2012)。淺談父母離異對其自女的影響，家庭教育雙月刊，35，29-36。</li> 
+			<li>張華甄(2012)。淺談青少年與家人的親密關係，家庭教育雙月刊，36，6-15。</li>
+           </ul>
+       	
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon10" width="42" height="14" vspace="4" border="0" align="right" id="Icon13" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+   
+    
+    
+  <!--  <div class="BOX"> <img src="images/group_m6.jpg" width="111" height="116" class="member" />
+      <h1>李佳蓉</h1>
+      <h2>諮心字第001385號</h2>
+      <h3>諮商心理師</h3>
+      <p><b>專長</b><br />
+        遊戲治療、青少年諮商、團體諮商、自我探索、情緒管理、人際溝通</p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立高雄師範大學輔導與諮商研究所</li></ul>
+			<ul class="listlist">經歷
+			<li>高雄縣學生心理諮商中心兼任諮商心理師</li></ul>
+			<ul class="listlist">著作
+			<li>李佳蓉(待登稿中)。遊戲治療之案例報告~以一位選擇性緘默兒童為例。諮商與輔導。</li>
+			<li>李佳蓉(2010)。大學生親子關係、生命態度與墮胎態度之相關研究。國立高雄師範大學輔導與諮商研究所，未出版，高雄。</li>
+			<li>李佳蓉、陳志賢、丁原郁(2010，10月)。大學生墮胎態度現況及其影響因素之研究。壁報論文發表於2010年台灣輔導與諮商學會年會暨學術研 討會。彰化：國立彰化師範大學。</li>
+            <ul class="listlist">最喜歡的一句話
+			<li>過好每一個今天，今天就是人生的希望；<br>
+   點燃每一個希望，希望就是今天的太陽。</li>
+			</ul>
+		</div>
+		<a href="javascript:ShowDetail(11);void(0);"><img src="images/group_more_a.jpg" name="Icon11" width="42" height="14" vspace="4" border="0" align="right" id="Icon11" /></a> <img src="images/group_p1.jpg" width="881" height="3" /> </div>	
+
+-->
+
+
+  </div>
+</div>
+
+
+
+<div id="FOOTER">
+  <script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<p align="left">預約專線：(06)2757691    |  傳真專線：(06)238-6660    |  e-mail：<a href="mailto:service@opin.tw">service@opin.tw</a> |  地址：台南市東區府連東路53號4樓<a href="http://maps.google.com/maps?f=q&source=s_q&hl=zh-TW&geocode=&q=%E5%8F%B0%E5%8D%97%E5%B8%82%E6%9D%B1%E5%8D%80%E5%BA%9C%E9%80%A3%E6%9D%B1%E8%B7%AF53%E8%99%9F4%E6%A8%93&sll=37.0625,-95.677068&sspn=30.406222,74.882813&ie=UTF8&hq=&hnear=701%E5%8F%B0%E7%81%A3%E5%8F%B0%E5%8D%97%E5%B8%82%E6%9D%B1%E5%8D%80%E5%BA%9C%E9%80%A3%E6%9D%B1%E8%B7%AF53%E8%99%9F&z=16" target="_blank" onmouseover="MM_swapImage('Image4','','../images/map_b.jpg',0)" onmouseout="MM_swapImgRestore()"><img src="../images/map_a.jpg" name="Image4" alt="map" width="32" height="15" hspace="2" border="0" class="map" id="Image4" /></a>　<font color="#8a8a8a">copyright &copy; 2011 元品心理諮商所  All rights reserved. </font></p>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20659237-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></div>
+
+</body>
+</html>

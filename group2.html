@@ -1,0 +1,301 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="看見亮光心理諮商所由專業的心理諮商師提供多元的治療方法，來協助個體表達受困之感受。除了提供談話治療，也為不擅言語表達之兒童提供遊戲治療；此外還提供沙遊治療，藉由沙箱裡擺設的象徵物來溝通，更能輕鬆表達內在的複雜世界。">
+<meta name="keywords" content="看見亮光心理諮商所,元品,心理諮商,諮商,專業,治療,溝通,療癒,探索,心靈,成長,多元,沙遊,求助,憂鬱,黃雅羚">
+<title>看見亮光心理諮商所 關於我們</title>
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<style>
+.more_close_btn{
+	cursor:pointer;
+}
+</style>
+<script type="text/javascript" src="include/func.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--
+
+	//修正 IE 上, 無法使用 document.getElementsByTagName 來取得 TagName
+	if(typeof(window.external) != 'undefined'){    
+		document.getElementsByName = function(name, tag){
+			if(!tag){
+				tag = '*';
+			}
+			var elems = document.getElementsByTagName(tag);    
+			var res = []
+			for(var i=0;i<elems.length;i++){
+				att = elems[i].getAttribute('name');
+				if(att == name) {
+					res.push(elems[i]);
+				}
+			}
+			return res;
+		}
+
+	}
+	
+	$(document).ready(function(){
+		//滑出內容	
+		$(".more_close_btn").click(function(){
+			if($(this).attr('src').indexOf("more")>=0){
+				$(this).attr('src','images/group_close_a.jpg');
+				$(this).parent().find(".con").slideDown("fast")
+			}else{
+				$(this).attr('src','images/group_more_a.jpg');
+				$(this).parent().find(".con").slideUp("fast")
+			}
+		});
+	
+	
+	});
+
+	/*
+	function ShowDetail(n){
+		var icon=document.getElementById("Icon"+n);
+		var r=document.getElementsByName("dc");
+		var b=r[(n-1)];
+		if(icon.src.indexOf("more")>=0){
+			icon.src="images/group_close_a.jpg";
+			$(b).slideDown("fast");
+		}else{
+			icon.src="images/group_more_a.jpg";
+			$(b).slideUp("fast");
+		}
+	}
+	*/
+	
+//-->
+</script>
+
+</head>
+
+<body>
+
+<div id="HEADER">
+	<div id="MENU">
+		<div class="LOGO" onclick="window.location.href='/index.asp';"></div>
+
+
+<div class="BOX">
+<ul id="main-menu">
+ <li><a href="/aboutHopelight.html" title="關於我們" onmouseover="ShowSubMenu();"><img src="/images/menu_about_us.png" alt="關於我們" width="91" height="35" border="0" id="about_image" /></a></li>
+ <li><a href="/service.html" title="服務內容"><img src="/images/menu_service.png" alt="服務內容" width="91" height="35" border="0" /></a></li>
+ <li><a href="/location1.html" title="我們在哪裡"><img src="/images/menu_location.png" width="91" height="35" alt="我們在哪裡" /></a></li>
+ <li><a href="/reservation1.html" title="預約方式"><img src="/images/menu_reservation.png" width="91" height="35" alt="預約方式" /></a></li>
+ <li><a href="/article1.html" title="好文精選"><img src="/images/menu_article.png" width="91" height="35" alt="好文精選" /></a></li>
+ <li><a href="/news1.html" title="最新消息"><img src="/images/menu_hot_news.png" width="91" height="35" alt="最新消息" /></a></li>
+</ul>
+</div>
+<div class="BTN3"><ul id="third_menu"><li><a href="javascript:ShowNotice();void(0);" class="style1">諮商須知</a></li>    
+<li><a href="/reservation.asp">立即預約</a></li>    <li><a href="/index.html">回首頁</a></li></ul></div>
+<div id="about_submenu">
+	<ul id="sub-menu2">
+		<li><a href="/aboutHopelight.html" title="成立宗旨">成立宗旨</a></li>
+		<li><a href="/group.html" title="專業陣容">專業陣容</a></li>
+		<li><a href="/place.html" title="環境介紹">環境介紹</a></li>
+	</ul>
+</div>
+
+<div id="outDiv" onmouseover="HideSubMenu();"></div>
+<div id="NOTICE"><div class="CLOSE" onclick="HideNotice();"></div><div class="BOX3"><p>1.為確保諮商品質及維護當事人隱私，所有諮商與來訪請事前電話預約。</p>
+<p>2.我們的諮商服務採『預約預付』制，請提前預約，並讓我們安排適合您會談主題的諮商師。</p>
+<p>3.您的來訪及諮商內容我們將絕對保密，請放心。</p>
+</div></div>
+	</div>
+</div>
+<div id="WRAPPER">
+  <div id="BANNER"><img src="images/topb_about.jpg" width="948" height="130" /></div>
+  <div id="TITLE_GROUP"></div>
+  <div id="SUB_MENU">
+    <ul id="main-nav">
+      <li><a href="aboutHopelight" title="e.g. 'Information about the company ...">成立宗旨</a></li>
+      <li class="over">專業陣容</li>
+      <li><a href="place.html" title="e.g. 'Information about the company ...">環境介紹</a></li>
+    </ul>
+  </div>
+  
+  
+<div id="GROUP-CONTENT">
+    <div class="BOX"> <img src="images/group_m1.jpg" width="111" height="116" class="member" />
+      <h1>黃雅羚</h1>
+      <h2>諮心字第000064</h2>
+      <h3>諮商心理師兼所長</h3>
+      <p><b>專長</b><br />
+        <b>(一)兒童及青少年</b><br />
+        兒童心理發展評估、兒童適應問題諮商、兒童健康行為促進、兒童創傷治療(身體虐待、疏忽、精神虐待、性侵害、目睹家暴)、遊戲治療、團體治療<br />
+        <b>(二)成人</b><br />
+        個人成長諮商、沙遊治療、親職教育、壓力管理、兩性成長<br />
+        <b>(三)專業人員</b><br />
+        專業人員督導、輔導技巧專業工作坊</p>
+		
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立高雄師範大學輔導研究所碩士</li>
+			<li>國立高雄師範大學輔導與諮商研究所博士</li></ul>
+			<ul class="listlist">經歷
+			<li>台南市政府警察局外聘心理諮詢顧問2011/03~至今</li>
+			<li>高雄市兒童青少年與家庭諮商中心諮商心理師兼專業督導2003/7~至今</li>
+			<li>高雄市家扶中心諮商心理師2003/10~至今</li>
+			<li>高雄縣家扶中心諮商心理師2003/10~至今</li>
+			<li>台南縣家扶中心諮商心理師2005/10~至今</li>
+			<li>台南市勵馨基金會特約心理師2007/01~至今</li>
+			<li>台南女子技術學院通識中心兼任助理教授2003/10~至今</li>
+			<li>高雄市、高雄縣、台南市學生諮商中心分區輔導老師督導</li></ul>
+			<ul class="listlist">著作
+			<li>黃雅羚、林妙容(民93)：安置機構內青少年自殘行為成因與介入策略。學生輔導月刊。</li>
+			<li>黃雅羚(民92)：身體上的痛比不上心痛~青少年自傷行為的成因探討。諮商與輔導。</li>
+			<li>黃雅羚(民92)：青少年自傷經驗之分析研究。高雄師範大學輔導研究所碩士論文。</li>
+			<li>黃雅羚(民94)。青少年自傷經驗發展歷程之分析研究。12期，諮商輔導學報。</li>
+			<li>許雅惠、黃雅羚(民94)。身心障礙大專學生生涯阻礙之分析研究。22期，屏東師範學報。</li>
+			<li>黃雅羚、戴嘉南(民97) 。專業諮商人員受委任性侵害案件專家證人經驗之初探研究。發表於2008年全國輔導與諮商碩博士研究生學術研討會。</li>
+			<li>黃雅羚、丁原郁(民97) 。駐地實習諮商師生涯任務與因應行動之研究。發表於  2008年全國輔導與諮商碩博士研究生學術研討會。</li>
+			<li>黃雅羚(民99)。性侵害兒童心理創傷量表發展。高雄師範大學輔導研究所博士論文</li>
+			</ul>
+			<ul class="listlist">最喜歡的一句話
+			<li>~~~你所需的一切都存於你心~~~<br>
+			摘自綠野仙蹤『仙女一定在桃樂絲身上做了記號，因為她到奇怪的地方去遊蕩，卻總是有一股無形的力量在保護他』</li></ul>
+		</div>		
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon1" width="42" height="14" vspace="4" border="0" align="right" id="Icon1" /> <img src="images/group_p1.jpg" width="881" height="3" /></div>
+   
+
+
+    
+	
+	<div class="BOX"> <img src="images/group_m2.jpg" width="111" height="116" class="member" />
+      <h1>蔡素琴</h1>
+      <h2>心理師證照號碼：諮心字第000593號</h2>
+      <h3>顧問</h3>
+      <p><b>專長：</b><br />
+        性別諮商、婚姻關係、兒童遊戲治療、兒童與青少年不適應行為、親職教育與輔導、敘事治療、敘事取向諮商督導 </p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立高雄師範大學輔導與諮商研究所博士</li>
+			</ul>
+			<ul class="listlist">經歷
+			<li>國立中興大學通識教育中心兼任助理教授</li>
+			<li>國立彰化師範大學師資培育中心兼任助理教授</li>
+			<li>私立朝陽科技大學通識教育中心兼任助理教授</li>
+			<li>國立台中教育大學學生諮商中心兼任諮商督導、諮商心理師</li>
+			<li>私立朝陽科技大學學生發展中心兼任諮商督導、諮商心理師</li>
+			<li>台中市婦女福利服務中心特約諮商心理師</li>
+			<li>台中市私立新希望社會福利基金會諮詢顧問</li>
+			<li>台中市家扶中心特約諮商心理師</li>
+			<li>伊甸基金會台中分會特約諮商心理師</li>
+			<li>高雄市社會局兒童青少年與家庭諮商中心諮商師</li>
+			<li>成大醫院精神科兼任心理治療師</li>
+			<li>兒童福利聯盟高雄辦事處特約諮商師</li>
+			<li>嘉南藥理科技大學幼保系兼任講師</li>
+			<li>台南女子技術學院家政系兼任講師</li>
+			<li>國小教師</li></ul>
+			<ul class="listlist">著作
+			期刊論文
+			<li>蔡素琴、廖鳳池（2009）。從女性主義觀點解讀親子衝突歷程中的母職經驗─以一位家有青少年子女的母親為例。諮商輔導學報，20，p.85-125。</li>
+			<li>蔡素琴（2009）。女性主義母職理論的發展與演變。諮商與輔導月刊，284，p.24-29。</li>
+			<li>蔡素琴、廖鳳池（2005）。實務工作者對於兒虐者親職教育輔導課程需求評估之探討－以兒童福利聯盟高雄中心87-91年所承辦強制親職教育工作為例。諮商輔導學報，12，p.1-33。</li>
+			<li>蔡素琴（2005）。督導關係中的挑戰－談受督者的抗拒與督導的因應策略。輔導季刊， 41（3），p.18-22。</li>
+			<li>蔡素琴（2001）。從學校系統看中輟生的輔導。諮商與輔導月刊，284，p.46-47。</li>
+			<li>蔡素琴（1999）。請不要用異樣的眼光看我―談學童暴力行為因應之道。國教輔導，38（6），p.57-59。</li>
+			<li>蔡素琴（1999）。同儕輔導的功能與實施。諮商與輔導月刊，161，p.10-12。</li>
+			<li>蔡素琴（1999）。培養兒童積極、正向的休閒態度―從父母與教師的影響談起。學生輔導雙月刊， 60，p.46-57。</li>
+			<li>蔡素琴（1998）。從歸因理論淺談學生的學習輔導。教育資料文摘，41（5），p.151-163。</li>
+			<li>蔡素琴（1997）。學校組織結構與學校效能之理論分析。教育研究，5，p.203-220。</li>
+			研討會論文
+			<li>蔡素琴（2010，8月）。家有青少年子女的母親於親子衝突歷程中母職經驗之敘事研究。論文發表於亞洲健康心理學會與台灣大學心理系共同主辦之「第四屆亞洲健康心理學國際會議」，台北。</li>
+其他
+			<li>陳信昭、蔡素琴譯（2003）。改變之路—短期治療解決方法應用於難纏青少年。台北：五南。</li>
+			</ul>
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon2" width="42" height="14" vspace="4" border="0" align="right" id="Icon2" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+
+	<div class="BOX"> <img src="images/group_m3.jpg" width="111" height="116" class="member" />
+      <h1>黃馨慧</h1>
+      <h2>心理師證照號碼：諮心字第001817號</h2>
+      <h3>諮商心理師</h3>
+      <p><b>專長：</b><br />
+        敘事治療取向諮商、生涯諮商、兒童與青少年工作、敘事治療取向團體</p>
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>國立高雄師範大學輔導與諮商研究所碩士</li></ul>
+			<ul class="listlist">經歷
+			<li>高雄「張老師」中心員工協助方案諮商心理師</li>
+			<li>文藻外語學院兼任諮商心理師</li>
+			<li>屏東家扶中心兼任諮商心理師</li>
+			<li>高雄市教育局學諮中心兼任諮商心理師</li>
+			<li>教育部高中生涯規劃學科中心專任助理</li>
+			<li>勞委會職訓局高屏澎東區就業服務中心個案管理員</li>
+			<li>中壢/台北「張老師」中心專任張老師</li></ul>
+		</div>
+		<img class="more_close_btn" src="images/group_more_a.jpg" name="Icon3" width="42" height="14" vspace="4" border="0" align="right" id="Icon3" /> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+
+
+
+	<div class="BOX"> <img src="images/group_m4.jpg" width="111" height="116" class="member" />
+      <h1>魏妏秦</h1>
+      <h2> </h2>
+      <h3>行政助理</h3>
+
+		<div class="con" name="dc">
+			<ul class="listlist">學歷
+			<li>台南應用科技大學應用外語系畢業</li>
+			<li>國立中央大學法國語文學系肄業</li>
+			</ul>
+			<ul class="listlist">經歷
+			<li>元品心理諮商所行政助理</li>
+			<li>台南應用科技大學應外系系主任教學助理</li>
+			<li>菱格科技股份有限公司業務助理兼生產管理</li>
+			</ul>
+
+		</div>
+		<a href="javascript:ShowDetail(11);void(0);"><img src="images/group_more_a.jpg" name="Icon4" width="42" height="14" vspace="4" border="0" align="right" id="Icon11" /></a> <img src="images/group_p1.jpg" width="881" height="3" /> </div>
+
+
+  </div>
+</div>
+
+
+
+<div id="FOOTER">
+  <script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<p align="left">預約專線：(06)252-6733  . 0975-637856  |  e-mail：<a href="mailto:service@hopelight.com.tw">service@hopelight.com.tw</a> |  地址：台南市北區和緯路二段205號<a href="http://goo.gl/maps/T26s2" target="_blank" onmouseover="MM_swapImage('Image4','','../images/map_b.jpg',0)" onmouseout="MM_swapImgRestore()"><img src="images/map_a.jpg" name="Image4" alt="map" width="32" height="15" hspace="2" border="0" class="map" id="Image4" /></a><font color="#8a8a8a">copyright &copy; 2012 看見亮光心理諮商所  All rights reserved. </font></p>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20659237-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></div>
+
+</body>
+</html>
